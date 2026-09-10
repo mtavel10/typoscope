@@ -9,10 +9,6 @@ articles, with a draggable/resizable "focus rectangle" overlay that dims
 everything outside it — a digital version of a physical typoscope reading
 guide. Built for accessibility (fuzz around text from a visual disability).
 
-Sibling project `../read-block/` is a Tkinter full-screen horizontal strip
-overlay that inspired the interaction model here, but works over any
-application rather than rendering content itself.
-
 ## Run
 
 No build step. Serve the folder and open in a browser — pdf.js's worker
