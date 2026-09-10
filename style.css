@@ -35,3 +35,15 @@ body {
   inset: 0;
   pointer-events: none;
 }
+
+.dim-panel {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.frame {
+  position: absolute;
+  pointer-events: auto;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  cursor: move;
+}
